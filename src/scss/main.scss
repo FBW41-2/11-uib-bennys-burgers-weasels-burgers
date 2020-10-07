@@ -1,8 +1,6 @@
 // This is where you can import other stylesheets or write your scss code
-
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
 @import "../../node_modules/bootstrap/scss/bootstrap";
-
-// add custom vars? 
 
 h2 {
     display: block;
@@ -13,14 +11,34 @@ h2 {
     margin-right: 0;
     font-weight: bold;
     text-align: center ;
-  }
+}
+
+.card {
+    border: none;
+    .card-body {
+        color: black;
+    }
+}
 
 .card-color {
     color: white;
     background-color: lightblue;
 }
 
-.card-body {
-    color: black;
-    
+h1,
+h2, 
+h5 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: white;
 }
+
+.text-color {
+    color: white;
+}
+
+#nav {
+    a {
+        color: purple;
+    }
+}
+

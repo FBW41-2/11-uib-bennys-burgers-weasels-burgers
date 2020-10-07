@@ -13,7 +13,7 @@
 <body>
 
   <!-- nav Abdo -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg text-dark bg-light" id="nav">
     <a class="navbar-brand" href="#"><img src="images/hamburger.svg" width="20" height="25"   alt="ma burger" loading="lazy">Benny's</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -35,10 +35,9 @@
   <!-- nav -->
   <!-- header Abdo - jumbotron! -->
   <header>
-    <div class="jumbotron">
+    <div class="jumbotron" style="background-image: url(/images/lidye-1Shk_PkNkNw-unsplash.jpg); background-size: 100%;">
       <h1 class="display-4">Benny's Burger</h1>
-      <p>Hands down, best burger in town</p>
-      <img src="/images/lidye-1Shk_PkNkNw-unsplash.jpg" width="70" height="70" alt="weasel-burger">
+      <p class="text-color">Hands down, best burger in town</p>
       <a class="btn btn-primary btn-lg" href="#" role="button">See the menu</a>
     </div>
   </header>
@@ -46,56 +45,54 @@
 
   <!-- main -->
   <!-- The Idea - Ibo -->
-  <div>
-    <h1 mx-auto> the Idea</h1>
-    <div class="card-deck">
-      <div class="card">
-        <img class="card-img-top" src="images/care.svg" alt="Caring hands">
-        <div class="card-body">
-          <h5 class="card-title">100% organic</h5>
-          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, dolorum iusto nam distinctio tenetur quam culpa neque officia minus, deserunt sapiente iste incidunt. Saepe nulla culpa, odio iure corrupti sapiente!</p>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="images/plant.svg" alt="Plant">
-        <div class="card-body">
-          <h5 class="card-title">Vegan</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptas reiciendis impedit ab neque, earum, ea saepe perferendis nostrum, cum ducimus blanditiis atque corrupti consequuntur eius deleniti accusantium sunt. Et.</p>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="images/heart.svg" alt="Heart">
-        <div class="card-body">
-          <h5 class="card-title">No animal cruelty</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repellendus vero tempora, ipsa nostrum eaque voluptas impedit, dignissimos iure laborum odio distinctio asperiores sunt cum obcaecati! Commodi labore delectus suscipit.</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
+  <div class="container">
+    <div class="row">
+     <div class="card-deck ">
+       <div class="card col-sm-6 col-md-4">
+         <img class="card-img-top" src="images/care.svg" alt="Caring hands" style="border: solid;border-radius: 50%; width: 80px;">
+         <div class="card-body">
+           <h5 class="card-title">100% organic</h5>
+           <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, dolorum iusto nam distinctio tenetur quam culpa neque officia minus, deserunt sapiente iste incidunt. Saepe nulla culpa, odio iure corrupti sapiente!</p>
+         </div>
+       </div>
+       <div class="card col-sm-6 col-md-4">
+         <img class="card-img-top" src="images/plant.svg" alt="Plant" style="border: solid;border-radius: 50%; width: 80px;">
+         <div class="card-body">
+           <h5 class="card-title">Vegan</h5>
+           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptas reiciendis impedit ab neque, earum, ea saepe perferendis nostrum, cum ducimus blanditiis atque corrupti consequuntur eius deleniti accusantium sunt. Et.</p>
+         </div>
+       </div>
+       <div class="card col-md-4">
+         <img class="card-img-top " src="images/heart.svg" alt="Heart" style="border: solid;border-radius: 50%;width: 80px;">
+         <div class="card-body">
+           <h5 class="card-title">No animal cruelty</h5>
+           <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt itaque magni aliquid explicabo nostrum quasi pariatur, suscipit ipsam cum dolorem consequatur optio dolorum facere corporis. Sint culpa voluptatem facilis earum?</p>
+         </div>
+       </div>
+     </div>
+       </div>
+       </div>
 
   <!-- What's new at Benny's - Paul -->
-  <div class="container card-color">
+  <div class="container-fluid card-color">
     <div>
       <h2>What's new at Benny's</h2>
     </div>
   <div class="row">
     
-    <div class="col-md-4 col-sm-12">
+    <div class="col-l-3 col-md-4 col-sm-12">
       <div class="card">
         <img class="card-img-top" src="/images/dan-gold-E6HjQaB7UEA-unsplash.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Win a free lunch</h5>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <i class="fab fa-long-arrow-alt-right"></i>
           <a href="#" class="btn btn-primary">Learn more
-            
+            <i class="fab fa-arrow-right"></i>
           </a>
-        </i>
         </div>
       </div>
     </div>
-    <div class="col-md-4 col-sm-12">
+    <div class="col-l-3 col-md-4 col-sm-12">
       <div class="card">
         <img class="card-img-top" src="/images/eaters-collective-vOdK_eih7B0-unsplash.jpg" alt="Card image cap">
         <div class="card-body">
@@ -105,7 +102,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4 col-sm-12">
+    <div class="col-l-3 col-md-4 col-sm-12">
       <div class="card">
         <img class="card-img-top" src="/images/jon-tyson-_j-sUa8lHy4-unsplash.jpg" alt="Card image cap">
         <div class="card-body">
@@ -115,6 +112,18 @@
         </div>
       </div>
     </div>
+    <div class="col-l-3 col-md-4 col-sm-12">
+      <div class="card">
+        <img class="card-img-top" src="/images/zac-cain-jLzukAj_PhQ-unsplash.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Double deck</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#" class="btn btn-primary">Learn more</a>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </div>
 
@@ -144,8 +153,16 @@
   </form>
 
   <!-- Footer -->
+  <footer>
+    <div class="container-fluid text-white bg-dark text-right p-2">
+      <p>Copyright 2019</p>
+    </div>
+  </footer>
 
   <!-- Custom scripts, edit above this line -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script src="scripts/index.js"></script>
 </body>
 
